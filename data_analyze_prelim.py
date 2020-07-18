@@ -5,4 +5,5 @@ import numpy as np
 #Import the data_import.py file in this repo
 import data_import
 
-#Organize all the columns
+#Name and store all the columns
+numElements = data[1]
