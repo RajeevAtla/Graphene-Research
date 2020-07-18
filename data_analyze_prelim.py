@@ -2,8 +2,23 @@
 import pandas as pd
 import numpy as np
 
-#Import the data_import.py file in this repo
 import data_import
 
-#Name and store all the columns
-numElements = data[1]
+#Import data
+exec(open('data_import.py').read())
+#print(data) #for a sanity check
+
+#Name and store all the columns; print for sanity check
+numElements = data["number_of_elements"]
+#print(numElements)
+
+atomicMass = data["mean_atomic_mass"]
+atomicRadius = data["mean_atomic_radius"]
+fie = data["mean_fie"]
+density = data["mean_Density"]
+electronAffinity = data["mean_ElectronAffinity"]
+fusionHeat = data["mean_FusionHeat"]
+thermalConductivity = data["mean_ThermalConductivity"]
+valence = data["mean_Valence"]
+criticalTemp = data["critical_temp"]
+superconType = data["Superconductivity Type"]
