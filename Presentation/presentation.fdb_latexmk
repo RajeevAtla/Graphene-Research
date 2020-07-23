@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1595462927 "presentation.xdv" "presentation.pdf" "presentation" 1595462927
-  "presentation.xdv" 1595462925 163752 ba227db2a0727f84a29b9612987a4dcc "xelatex"
+["xdvipdfmx"] 1595524945 "presentation.xdv" "presentation.pdf" "presentation" 1595525587
+  "presentation.xdv" 1595524944 206112 e496f4044b5aad816208e66cbe64cdad "xelatex"
   (generated)
   "presentation.pdf"
-["xelatex"] 1595462920 "presentation.tex" "presentation.xdv" "presentation" 1595462927
+["xelatex"] 1595524938 "presentation.tex" "presentation.xdv" "presentation" 1595525587
   "c:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1595009322 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1595014233 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1595007544 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -177,15 +177,15 @@
   "c:/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt" 1595381444 4778992 3bc8e017b91ce29e49efe275767d3a42 ""
   "c:/texlive/2020/texmf.cnf" 1595014263 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "images/iresearch.png" 1595439883 71518 c38ee56ddf388568c40d8fa39982e7d1 ""
-  "presentation.aux" 1595462925 2078 800d63de5af36db42b2e871d66e828fe "xelatex"
-  "presentation.nav" 1595462925 903 77c6fd2592502bbf9193cdd52defceed "xelatex"
-  "presentation.out" 1595462925 47 4ca0ff56e3ee124326a4720e136735d1 "xelatex"
-  "presentation.tex" 1595462893 1048 cc2af292f7bccfbe11506cb259ed81f6 ""
+  "presentation.aux" 1595524944 3709 f51e41e3edd1e185f6cf00453860d8be "xelatex"
+  "presentation.nav" 1595524944 1794 5f0790dd8bb73b85dea7cb6b0c527004 "xelatex"
+  "presentation.out" 1595524944 313 67e4f4c7b9115fe5959f3cd0a1bcb108 "xelatex"
+  "presentation.tex" 1595524927 1401 38dee843b543c3a41b4fe30ba2607ab2 ""
   (generated)
-  "presentation.xdv"
-  "presentation.log"
-  "presentation.out"
-  "presentation.snm"
-  "presentation.toc"
-  "presentation.nav"
   "presentation.aux"
+  "presentation.snm"
+  "presentation.nav"
+  "presentation.log"
+  "presentation.xdv"
+  "presentation.out"
+  "presentation.toc"

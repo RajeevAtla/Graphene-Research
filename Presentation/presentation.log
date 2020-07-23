@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.7.21)  22 JUL 2020 20:08
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.7.21)  23 JUL 2020 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -985,20 +985,57 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/lmtt/b/n --> TU/lmtt/b/n on input line 29.
- (./presentation.nav) [1
+ (./presentation.nav)
+Overfull \hbox (0.932pt too wide) has occurred while \output is active
+ []\TU/lmss/m/n/6 Acknowledgements  
+ []
 
-] [2
+[1
 
-] [3
+]
+Overfull \hbox (0.932pt too wide) has occurred while \output is active
+ []\TU/lmss/m/n/6 Acknowledgements  
+ []
 
-] [4
+[2
 
-] [5
+]
+Overfull \hbox (0.932pt too wide) has occurred while \output is active
+ []\TU/lmss/m/n/6 Acknowledgements  
+ []
+
+[3
+
+]
+Overfull \hbox (0.932pt too wide) has occurred while \output is active
+ []\TU/lmss/m/n/6 Acknowledgements  
+ []
+
+[4
+
+]
+Overfull \hbox (0.932pt too wide) has occurred while \output is active
+ []\TU/lmss/m/n/6 Acknowledgements  
+ []
+
+[5
+
+]
+Overfull \hbox (0.932pt too wide) has occurred while \output is active
+ []\TU/lmss/m/n/6 Acknowledgements  
+ []
+
+[6
 
 ]
 File: ./images/iresearch.png Graphic file (type bmp)
 <./images/iresearch.png>
- [6
+
+Overfull \hbox (0.932pt too wide) has occurred while \output is active
+ []\TU/lmss/m/n/6 Acknowledgements  
+ []
+
+[7
 
 ]
 \tf@nav=\write6
@@ -1010,21 +1047,21 @@ File: ./images/iresearch.png Graphic file (type bmp)
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
  (./presentation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 70.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 94.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 4CA0FF56E3EE124326A4720E136735D1;47.
+(rerunfilecheck)             Checksum: 67E4F4C7B9115FE5959F3CD0A1BCB108;313.
  ) 
 Here is how much of TeX's memory you used:
- 23522 strings out of 479712
- 477304 string characters out of 5892708
- 783993 words of memory out of 5000000
- 40280 multiletter control sequences out of 15000+600000
- 535504 words of font info for 37 fonts, out of 8000000 for 9000
+ 23579 strings out of 479712
+ 478874 string characters out of 5892708
+ 787052 words of memory out of 5000000
+ 40335 multiletter control sequences out of 15000+600000
+ 535512 words of font info for 38 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,16n,70p,806b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,16n,75p,806b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on presentation.xdv (6 pages, 163752 bytes).
+Output written on presentation.xdv (7 pages, 206112 bytes).
