@@ -1,9 +1,9 @@
 # Fdb version 3
-["xdvipdfmx"] 1595440284 "presentation.xdv" "presentation.pdf" "presentation" 1595440284
-  "presentation.xdv" 1595440281 160636 9bb27c999a17526ee5e5679cec1851fb "xelatex"
+["xdvipdfmx"] 1595462927 "presentation.xdv" "presentation.pdf" "presentation" 1595462927
+  "presentation.xdv" 1595462925 163752 ba227db2a0727f84a29b9612987a4dcc "xelatex"
   (generated)
   "presentation.pdf"
-["xelatex"] 1595440275 "presentation.tex" "presentation.xdv" "presentation" 1595440284
+["xelatex"] 1595462920 "presentation.tex" "presentation.xdv" "presentation" 1595462927
   "c:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1595009322 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1595014233 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1595007544 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -83,7 +83,7 @@
   "c:/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty" 1595007574 3935 57aa3c3e203a5c2effb4d2bd2efbc323 ""
   "c:/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty" 1595010143 4947 0c2888dd88121ae675fc6e82213623ba ""
   "c:/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty" 1595010143 5050 8933a39ad74377accd18991c5eb90c58 ""
-  "c:/texlive/2020/texmf-dist/tex/latex/base/size11.clo" 1595010143 8462 61fdf79debfc3dc4dab35ec6cf83fbf7 ""
+  "c:/texlive/2020/texmf-dist/tex/latex/base/size12.clo" 1595010143 8447 5c4b8ee712f8e349df2722115bc8c513 ""
   "c:/texlive/2020/texmf-dist/tex/latex/base/ts1cmr.fd" 1595010143 2431 b6cead9f069ed55f4fba0c637aa047b6 ""
   "c:/texlive/2020/texmf-dist/tex/latex/base/tuenc.def" 1595010143 27440 69bf3d7c71626cc47b8ff9b7bbf0a3c2 ""
   "c:/texlive/2020/texmf-dist/tex/latex/beamer/beamer.cls" 1595007720 11573 fb10f3ba07076d9c06c3409feda5d88d ""
@@ -177,15 +177,15 @@
   "c:/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt" 1595381444 4778992 3bc8e017b91ce29e49efe275767d3a42 ""
   "c:/texlive/2020/texmf.cnf" 1595014263 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "images/iresearch.png" 1595439883 71518 c38ee56ddf388568c40d8fa39982e7d1 ""
-  "presentation.aux" 1595440281 1802 98209835b909927f7a734bb53311ffc9 "xelatex"
-  "presentation.nav" 1595440281 747 0e276c0940a342ad38699132b0e9aa8d "xelatex"
-  "presentation.out" 1595440281 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "presentation.tex" 1595440272 817 40caa1dd6bb1c15114c1cf5cd63ba90b ""
+  "presentation.aux" 1595462925 2078 800d63de5af36db42b2e871d66e828fe "xelatex"
+  "presentation.nav" 1595462925 903 77c6fd2592502bbf9193cdd52defceed "xelatex"
+  "presentation.out" 1595462925 47 4ca0ff56e3ee124326a4720e136735d1 "xelatex"
+  "presentation.tex" 1595462893 1048 cc2af292f7bccfbe11506cb259ed81f6 ""
   (generated)
-  "presentation.log"
-  "presentation.nav"
-  "presentation.snm"
-  "presentation.aux"
   "presentation.xdv"
-  "presentation.toc"
+  "presentation.log"
   "presentation.out"
+  "presentation.snm"
+  "presentation.toc"
+  "presentation.nav"
+  "presentation.aux"
