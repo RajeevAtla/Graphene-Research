@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 
+import matplotlib
+
 import xgboost as xgb
 from xgboost import DMatrix
 
