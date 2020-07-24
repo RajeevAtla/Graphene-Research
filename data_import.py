@@ -6,5 +6,3 @@ data = pd.read_csv("dataset.csv", delimiter = ',' , index_col = "material")
 
 #Sanity check - print the first 5 rows
 #print(data.head())
-
-#Another sanity check
