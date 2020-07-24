@@ -17,7 +17,7 @@ train_data, test_data = train_test_split(data)
 dtrain = DMatrix(train_data, train_data["Superconductivity Type"])
 dtest = DMatrix(test_data, test_data["Superconductivity Type"])
 
-param = {'max_depth': 10, 'eta': 0.1, 'objective': 'reg:squarederror'}
+param = {'max_depth': 100, 'eta': 0.1, 'objective': 'reg:squarederror'}
 
 param['eval_metric'] = 'error'
 

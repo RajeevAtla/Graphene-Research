@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.21)  23 JUL 2020 23:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.7.21)  24 JUL 2020 12:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -876,26 +876,31 @@ Overfull \hbox (1.12144pt too wide) has occurred while \output is active
 [6
 
 ]
-<./images/iresearch.png, id=265, 501.875pt x 164.615pt>
-File: ./images/iresearch.png Graphic file (type png)
-<use ./images/iresearch.png>
-Package pdftex.def Info: ./images/iresearch.png  used on input line 99.
-(pdftex.def)             Requested size: 276.03209pt x 90.53853pt.
-
 Overfull \hbox (1.12144pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Acknowledgements  
  []
 
 [7
 
- <./images/iresearch.png>]
+]
+<./images/iresearch.png, id=302, 501.875pt x 164.615pt>
+File: ./images/iresearch.png Graphic file (type png)
+<use ./images/iresearch.png>
+Package pdftex.def Info: ./images/iresearch.png  used on input line 110.
+(pdftex.def)             Requested size: 291.08769pt x 95.47676pt.
+
+Overfull \hbox (10.34506pt too wide) in paragraph at lines 110--110
+ [] 
+ []
+
+
 Overfull \hbox (1.12144pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Acknowledgements  
  []
 
 [8
 
-]
+ <./images/iresearch.png>]
 \tf@nav=\write6
 \openout6 = `presentation.nav'.
 
@@ -905,30 +910,30 @@ Overfull \hbox (1.12144pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: AFFE1D5EE75AD518A5725983928ED36C;355.
+(rerunfilecheck)             Checksum: 2E7CC91826CA5446588A140055173608;400.
  ) 
 Here is how much of TeX's memory you used:
- 18066 strings out of 480906
- 347322 string characters out of 5912188
- 597768 words of memory out of 5000000
- 33206 multiletter control sequences out of 15000+600000
+ 18054 strings out of 480906
+ 346740 string characters out of 5912188
+ 597668 words of memory out of 5000000
+ 33194 multiletter control sequences out of 15000+600000
  537509 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,16n,75p,806b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,16n,67p,806b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/tex
 live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2020
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2020/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on presentation.pdf (8 pages, 128269 bytes).
+Output written on presentation.pdf (8 pages, 127247 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 328 compressed objects within 4 object streams
+ 362 PDF objects out of 1000 (max. 8388607)
+ 331 compressed objects within 4 object streams
  25 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 142 words of extra memory for PDF output out of 10000 (max. 10000000)
 

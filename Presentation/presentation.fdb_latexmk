@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1595561494 "presentation.tex" "presentation.pdf" "presentation" 1595561501
+["pdflatex"] 1595608327 "presentation.tex" "presentation.pdf" "presentation" 1595608330
   "c:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1595009322 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1595008241 1288 655e228510b4c2a1abe905c368440826 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmss10.tfm" 1595008241 1316 b636689f1933f24d1294acdf6041daaa ""
@@ -172,15 +172,15 @@
   "c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1595381494 2440980 d766df946909bfff8307bea3227a205e ""
   "c:/texlive/2020/texmf.cnf" 1595014263 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "images/iresearch.png" 1595439883 71518 c38ee56ddf388568c40d8fa39982e7d1 ""
-  "presentation.aux" 1595561496 3992 3f3650c53c0242bb37c9c26b9eedc446 "pdflatex"
-  "presentation.nav" 1595561496 2034 49fe15f22fabcfe63855d95965da2cca "pdflatex"
-  "presentation.out" 1595561496 355 affe1d5ee75ad518a5725983928ed36c "pdflatex"
-  "presentation.tex" 1595543626 1594 36d0a168dd0a501b6c2679631ba6eb1f ""
+  "presentation.aux" 1595608329 4071 ec1ab52ce420bd5aa47c05f817325afc "pdflatex"
+  "presentation.nav" 1595608329 2099 8db690ddcfb5c428e97c67bf87987b06 "pdflatex"
+  "presentation.out" 1595608329 400 2e7cc91826ca5446588a140055173608 "pdflatex"
+  "presentation.tex" 1595608321 1624 3e2563b58239eb85b3217859a3b5ade2 ""
   (generated)
-  "presentation.out"
-  "presentation.toc"
   "presentation.log"
-  "presentation.aux"
-  "presentation.pdf"
+  "presentation.toc"
   "presentation.nav"
   "presentation.snm"
+  "presentation.out"
+  "presentation.pdf"
+  "presentation.aux"

@@ -1,8 +1,8 @@
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{XGBoost}{2}{0}{1}
-\beamer@subsubsectionintoc {1}{1}{1}{Self-Organizing Maps}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{2D Superconductivity}{4}{0}{1}
-\beamer@sectionintoc {2}{Methods}{5}{0}{2}
-\beamer@sectionintoc {3}{Discussion}{6}{0}{3}
-\beamer@sectionintoc {4}{Acknowledgements}{7}{0}{4}
-\beamer@sectionintoc {5}{References}{8}{0}{5}
+\beamer@subsectionintoc {1}{2}{2D Superconductivity}{3}{0}{1}
+\beamer@sectionintoc {2}{Methods}{4}{0}{2}
+\beamer@sectionintoc {3}{Discussion}{5}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{6}{0}{4}
+\beamer@sectionintoc {5}{References}{7}{0}{5}
+\beamer@sectionintoc {6}{Acknowledgements}{8}{0}{6}
