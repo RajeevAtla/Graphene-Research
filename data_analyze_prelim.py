@@ -10,7 +10,7 @@ exec(open('data_import.py').read())
 
 #Name and store all the columns; print for sanity check
 numElements = data["number_of_elements"]
-#print(numElements)
+#print(numElements) #for a sanity check
 
 atomicMass = data["mean_atomic_mass"]
 atomicRadius = data["mean_atomic_radius"]
