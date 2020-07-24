@@ -26,3 +26,7 @@ epochs = 100
 evallist = [(dtrain, 'eval'), (dtest, 'train')]
 
 bst = xgb.train(param, dtrain, epochs, evallist)
+
+ypred = bst.predict(dtest)
+
+xgb.plot_importance(bst)
