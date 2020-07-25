@@ -1,32 +1,24 @@
-import pandas as pd
-import numpy as np
-
-import matplotlib
-
-import xgboost as xgb
-from xgboost import DMatrix
-
-import sklearn
+from numpy import loadtxt
+from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
 
-import data_import
-exec(open('data_analyze_prelim.py').read())
+dataset = loadtxt('dataset_nolabel.csv', delimiter = ",", skiprows = 1) #loads the dataset, skips the labels
 
-train_data, test_data = train_test_split(data)
+X = dataset[:, 1:9] #input features
+Y = dataset[:, 10] #output label - type of superconductivity
 
-dtrain = DMatrix(train_data, train_data["Superconductivity Type"])
-dtest = DMatrix(test_data, test_data["Superconductivity Type"])
+seed = 101 #used to provide a degree of reproducibility
+test_size = 0.33 #train:test ratio
+X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = test_size, random_state = seed)
 
-param = {'max_depth': 100, 'eta': 0.1, 'objective': 'reg:squarederror'}
+model = XGBClassifier()
+model.fit(X_train, y_train)
 
-param['eval_metric'] = 'error'
+print(model)
 
-epochs = 100
+y_pred = model.predict(X_test)
+predictions = [round(value) for value in y_pred]
 
-evallist = [(dtrain, 'eval'), (dtest, 'train')]
-
-bst = xgb.train(param, dtrain, epochs, evallist)
-
-ypred = bst.predict(dtest)
-
-xgb.plot_importance(bst)
+accuracy = accuracy_score(y_test, predictions)
+print("Accuracy: %.2f%%" % (accuracy * 100.0))
