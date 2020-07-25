@@ -1,6 +1,0 @@
-PWD C:/Graphene Research/__pycache__
-INPUT c:/texlive/2020/texmf.cnf
-INPUT c:/texlive/2020/texmf-dist/web2c/texmf.cnf
-INPUT c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT data_import.cpython-38.pyc
-OUTPUT data_import.cpython-38.log
