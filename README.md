@@ -1,6 +1,6 @@
 # Graphene-Research
 
-Code and data for my research project.
+Code, data, and presentation for my research project
 
 For the files, please clone the repository using [git](https://git-scm.com/)
 ```
@@ -13,3 +13,4 @@ To do so, used
 ```
 pip install --upgrade numpy xgboost scikit-learn
 ```
+Imgbot was used to optimize the image files in the presentation.
