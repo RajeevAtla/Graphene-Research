@@ -13,4 +13,7 @@ To do so, used
 ```
 pip install --upgrade numpy xgboost scikit-learn
 ```
+
+To run the python file, use `python train.py`
+
 Imgbot was used to optimize the image files in the presentation.
