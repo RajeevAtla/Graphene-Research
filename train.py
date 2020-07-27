@@ -12,16 +12,15 @@ Y = dataset[:, 10] #output label - type of superconductivity
 #print(X)
 #print(Y)
 
-seed = 101 #used to provide a degree of reproducibility
+seed = 12 #used to provide a degree of reproducibility
+
 test_size = 0.25 #train:test ratio
 X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = test_size, random_state = seed)
 
 model = XGBClassifier()
 model.fit(X_train, y_train)
 
-
-
-print(model)
+#print(model)
 
 y_pred = model.predict(X_test)
 predictions = [round(value) for value in y_pred]
