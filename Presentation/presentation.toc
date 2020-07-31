@@ -1,0 +1,9 @@
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Superconductivity}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{XGBoost}{21}{0}{1}
+\beamer@sectionintoc {2}{Data}{29}{0}{2}
+\beamer@sectionintoc {3}{Methods}{33}{0}{3}
+\beamer@sectionintoc {4}{Discussion}{36}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{39}{0}{5}
+\beamer@sectionintoc {6}{References}{42}{0}{6}
+\beamer@sectionintoc {7}{Acknowledgements}{43}{0}{7}

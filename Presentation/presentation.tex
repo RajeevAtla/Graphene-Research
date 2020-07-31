@@ -20,18 +20,12 @@
 {
   John P. Stevens High School
 }
-
-
-
 \begin{document}
-
-
-
-
 \frame{\titlepage}
 
-\section{Introduction}
 
+
+\section{Introduction}
 \begin{frame}
 \frametitle{Outline}
 \tableofcontents
@@ -39,29 +33,7 @@
 \end{frame}
 
 
-\subsection{XGBoost}
 
-
-
-\begin{frame}
-\frametitle[allowframebreaks]{Introduction}
-\framesubtitle{XGBoost}
-\begin{itemize}
-  \item<1-> eXtreme Gradient Boosting
-  \item<2-> Package for \textbf{Python}, C++, Java, R, Julia, and Scala
-  \item<3-> Was used to process data from Large Hadron Collider (LHC) [Chen 2015]
-  \begin{itemize}
-    \item<4-> Won the Higgs Boson Machine Learning Challenge
-  \end{itemize}
-  \item<5-> Ensemble learning [Friedman et al. 2017]
-  \begin{itemize}
-    \item<6-> Combination of homogenous weak learners
-    \item<7-> End result is a weighted sum of weak learners
-    \[\theta_f = \sum \limits_{j} w_j \theta_j\]
-    \item<8-> \(w_j\) are determined by backpropogation via gradient descent
-  \end{itemize}
-\end{itemize}
-\end{frame}
 
 
 \subsection{Superconductivity}
@@ -92,26 +64,19 @@
 \begin{itemize}
 
   \item Two types - Type 1 and Type 2
-
   \pause
-
   \item Notation
-
   \pause
-
   \begin{itemize}
     \item \(H_c (T)\) is critical field as a function of temperature
     \pause
     \item \(T_c\) is critical temperature
   \end{itemize}
-
   \pause
-
   \begin{figure}[h]
     \includegraphics[scale = 0.5]{Type1.png}
     \caption{\textbf{\(H-T\) phase diagram for a Type 1 superconductor [Tinkham]}}
   \end{figure}
-
 \end{itemize}
 
 
@@ -161,6 +126,29 @@
   \caption{\textbf{Abrikosov vortices in YBCO - created by Wells et al. 2015 using scanning SQUID microscopy}}
 \end{figure}
 \end{frame}
+
+
+\subsection{XGBoost}
+\begin{frame}
+\frametitle[allowframebreaks]{Introduction}
+\framesubtitle{XGBoost}
+\begin{itemize}
+  \item<1-> eXtreme Gradient Boosting
+  \item<2-> Package for \textbf{Python}, C++, Java, R, Julia, and Scala
+  \item<3-> Was used to process data from Large Hadron Collider (LHC) [Chen 2015]
+  \begin{itemize}
+    \item<4-> Won the Higgs Boson Machine Learning Challenge
+  \end{itemize}
+  \item<5-> Ensemble learning [Friedman et al. 2017]
+  \begin{itemize}
+    \item<6-> Combination of homogenous weak learners
+    \item<7-> End result is a weighted sum of weak learners
+    \[\theta_f = \sum \limits_{j} w_j \theta_j\]
+    \item<8-> \(w_j\) are determined by backpropogation via gradient descent
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
 
 \section{Data}
 \begin{frame}
