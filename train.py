@@ -1,33 +1,68 @@
-from numpy import loadtxt
-from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 import matplotlib.pyplot as plt
 
-dataset = loadtxt('dataset_nolabel.csv', delimiter = ",", skiprows = 1) #loads the dataset, skips the labels
+import tensorflow as tf
+from tensorflow import keras
+from keras import layers, models
 
-X = dataset[:, 0:8] #input features
-Y = dataset[:, 10] #output label - type of superconductivity
 
-#Sanity check
-#print(X)
-#print(Y)
+import glob
+import imageio
+import matplotlib.pyplot as plt
+import numpy as np
+import os
+import pandas as pd
+import PIL
+import time
+import functools
+from IPython import display
 
-seed = 12 #used to provide a degree of reproducibility
 
-test_size = 0.2 #train:test ratio
-X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = test_size, random_state = seed)
+#import data using pandas
+data = pd.read_csv('dataset.csv', sep = ',', header = 0)
+data.pop('material')
+data.pop('critical_temp')
 
-model = XGBClassifier()
-model.fit(X_train, y_train)
+#print(data, data.dtypes) #sanity check
 
-print(model)
+data_tensor = tf.data.Dataset.from_tensor_slices((data)).shuffle(100)
 
-y_pred = model.predict(X_test)
-predictions = [round(value) for value in y_pred]
 
-#print(predictions) #sanitycheck
+def make_generator():
+    model = tf.keras.Sequential()
+    model.add(layers.Dense(7*7*256, use_bias=False, input_shape=(100,)))
+    model.add(layers.BatchNormalization())
+    model.add(layers.LeakyReLU())
 
-accuracy = accuracy_score(y_test, predictions)
-print("Accuracy: ", accuracy * 100)
+    model.add(layers.Reshape((7, 7, 256)))
+    assert model.output_shape == (None, 7, 7, 256) # Note: None is the batch size
+
+    model.add(layers.Conv2DTranspose(128, (5, 5), strides=(1, 1), padding='same', use_bias=False))
+    assert model.output_shape == (None, 7, 7, 128)
+    model.add(layers.BatchNormalization())
+    model.add(layers.LeakyReLU())
+
+    model.add(layers.Conv2DTranspose(64, (5, 5), strides=(2, 2), padding='same', use_bias=False))
+    assert model.output_shape == (None, 14, 14, 64)
+    model.add(layers.BatchNormalization())
+    model.add(layers.LeakyReLU())
+
+    model.add(layers.Conv2DTranspose(1, (5, 5), strides=(2, 2), padding='same', use_bias=False, activation='tanh'))
+    assert model.output_shape == (None, 28, 28, 1)
+
+
+    return model
+
+def make_discriminator():
+    model = tf.keras.Sequential
+
+    model.add(layers.Dense(2, activation = "relu"))
+    model.add(layers.Dense(3, activation = "relu"))
+    model.add(layers.Dense(4))
+
+    return model
+
+discriminator = make_discriminator()
+generator = make_generator()
